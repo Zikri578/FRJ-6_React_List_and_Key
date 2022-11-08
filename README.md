@@ -8,7 +8,7 @@ Apa itu list and key?
   
         //letak folder : components/UserCard.jsx
         import React from 'react'
-        import axios from 'axios'
+        import axios from 'axios'  -> menambahkan sekaligus install package pnpm
         
         //merupakan component yang bernama UseCard 
         export default function UseCard(){
