@@ -40,6 +40,7 @@ Apa itu list and key?
             <div>
               {blog.map((e) => {
                 return (
+                  //mengambil key untuk diambil id nya
                   <div key={e.id}>
                       <h1>{e.title}</h1>
                       <p>{e.body}</p>
